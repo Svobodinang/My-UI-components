@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/My-UI-components/'
-}
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/my-project/'
+      : '/'
+  }
