@@ -42,7 +42,7 @@ export default {
 @import "../../../styles/main.scss";
 
 $color: $c-dark;
-$colorArrow: $c-accent-two;
+$colorArrow: $c-accent-one;
 
 $f-size: 1.3rem;
 $squareBorder: 2px solid $color;
