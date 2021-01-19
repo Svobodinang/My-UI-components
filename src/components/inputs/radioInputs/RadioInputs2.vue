@@ -91,7 +91,7 @@ $roundFromLabelMargin: $roundWidth * 2;
     left: -($roundFromLabelMargin + $roundActiveWidth/4 - $roundWidth/4);
     top: -($f-size - $roundWidth + 0.1rem + $roundActiveWidth/4 - $roundWidth/4);
     background-color: $colorRound;
-    transition-duration: 0.28s;
+    transition-duration: 0.15s;
     transition-property: transform;
     transform: scale(0);
   }

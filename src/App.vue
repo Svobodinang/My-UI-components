@@ -3,12 +3,14 @@
     <h1>My UI components</h1>
   </div>
   <ButtonsSections />
-  <InputsSections :fields="fields" />
+  <InputsSections :fields="fields" :placeholder="placeholder" />
+  <IconsSections />
 </template>
 
 <script>
 import ButtonsSections from "@/components/sections/Buttons";
 import InputsSections from "@/components/sections/Inputs";
+import IconsSections from "@/components/sections/Icons";
 
 export default {
   name: "App",
@@ -27,10 +29,12 @@ export default {
         value: "Третий",
       },
     ],
+    placeholder: 'Введите текст'
   }),
   components: {
     ButtonsSections,
     InputsSections,
+    IconsSections
   },
 };
 </script>

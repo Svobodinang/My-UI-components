@@ -19,8 +19,16 @@
       <div class="content">
         <CheckboxInputs1
           :fields="fields"
-          v-model:CheckboxInputs1Value="CheckboxInputs1Value"
+          v-model:checkboxInputs1Value="checkboxInputs1Value"
         />
+        <CheckboxInputs2
+          :fields="fields"
+          v-model:checkboxInputs2Value="checkboxInputs2Value"
+        />
+      </div>
+      <h3>Text inputs</h3>
+      <div class="content">
+        <TextInput1 :placeholder="placeholder" v-model:TextInput1Value="TextInput1Value" />
       </div>
     </div>
   </section>
@@ -31,18 +39,25 @@ import RadioInputs1 from "@/components/inputs/radioInputs/RadioInputs1";
 import RadioInputs2 from "@/components/inputs/radioInputs/RadioInputs2";
 
 import CheckboxInputs1 from "@/components/inputs/checkboxInputs/CheckboxInputs1";
+import CheckboxInputs2 from "@/components/inputs/checkboxInputs/CheckboxInputs2";
+
+import TextInput1 from "@/components/inputs/textInputs/TextInput1";
 
 export default {
   components: {
     RadioInputs1,
     RadioInputs2,
     CheckboxInputs1,
+    CheckboxInputs2,
+    TextInput1,
   },
-  props: ["fields"],
+  props: ["fields", "placeholder"],
   data: () => ({
     rdioInput1Value: "",
     rdioInput2Value: "",
-    CheckboxInputs1Value: [],
+    checkboxInputs1Value: [],
+    checkboxInputs2Value: [],
+    TextInput1Value: ""
   }),
 };
 </script>
@@ -56,5 +71,6 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 3rem;
+  margin-bottom: 2rem;
 }
 </style> 

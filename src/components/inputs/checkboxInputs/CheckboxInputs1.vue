@@ -42,7 +42,7 @@ export default {
 @import "../../../styles/main.scss";
 
 $color: $c-dark;
-$colorArrow: $c-accent-one;
+$colorArrow: $c-accent-two;
 
 $f-size: 1.3rem;
 $squareBorder: 2px solid $color;
@@ -54,11 +54,11 @@ $arrowWidth: $squarewidth * 1.2;
 $arrowHight: $squarewidth * 0.7;
 
 $margin-bottom: $f-size;
-$squareFromLabelMargin: $f-size * 2;
+$marginFromLabel: $f-size * 2;
 
 .checkboxes-group {
   margin-bottom: $margin-bottom;
-  margin-left: $squareFromLabelMargin;
+  margin-left: $marginFromLabel;
 
   input[type="checkbox"] {
     display: none;
@@ -73,7 +73,7 @@ $squareFromLabelMargin: $f-size * 2;
   label::before {
     position: absolute;
     top: -($f-size - $squarewidth + 0.1rem);
-    left: -$squareFromLabelMargin;
+    left: -$marginFromLabel;
     z-index: 1;
     width: $squarewidth;
     height: $squareheight;
