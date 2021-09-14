@@ -1,4 +1,5 @@
 <template>
+  <!-- Главная страница -->
   <div class="main">
     <h1>UI components</h1>
     <p>by Hope Freedom</p>
@@ -25,12 +26,14 @@
   <ButtonsSections />
   <InputsSections :fields="fields" :placeholder="placeholder" />
   <IconsSections />
+  <Logos />
 </template>
 
 <script>
 import ButtonsSections from "@/components/sections/Buttons";
 import InputsSections from "@/components/sections/Inputs";
 import IconsSections from "@/components/sections/Icons";
+import Logos from "@/components/sections/Logos";
 
 export default {
   name: "App",
@@ -55,6 +58,7 @@ export default {
     ButtonsSections,
     InputsSections,
     IconsSections,
+    Logos,
   },
 };
 </script>
@@ -127,9 +131,9 @@ section {
 
   .social {
     display: flex;
-     a:not(:last-child) {
-       margin-right: 1rem;
-     }
+    a:not(:last-child) {
+      margin-right: 1rem;
+    }
 
     .icon {
       max-height: 1.8rem;

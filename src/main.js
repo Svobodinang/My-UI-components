@@ -1,6 +1,10 @@
-import '@/styles/main.scss'
-
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import '@/styles/main.scss'
+
+import Title from "@/components/sections/Title";
+
+createApp(App)
+  .component('Title', Title)
+  .mount('#app')

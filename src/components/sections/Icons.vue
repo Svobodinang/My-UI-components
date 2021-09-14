@@ -11,12 +11,10 @@
 </template>
 
 <script>
-import Title from "@/components/sections/Title";
 import MenuIcon1 from "@/components/icons/menuIcons/MenuIcon1";
 
 export default {
   components: {
-    Title,
     MenuIcon1,
   },
 };

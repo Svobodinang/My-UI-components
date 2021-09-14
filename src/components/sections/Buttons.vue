@@ -11,12 +11,10 @@
 </template>
 
 <script>
-import Title from "@/components/sections/Title";
 import ActionSmallButton1 from "@/components/buttons/ActionSmallButtons/ActionSmallButton1";
 
 export default {
   components: {
-    Title,
     ActionSmallButton1,
   },
 };

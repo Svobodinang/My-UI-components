@@ -1,4 +1,5 @@
 <template>
+<!-- Разделитель секций - заголовок секции -->
   <div class="tickers">
     <div
       v-for="i in tickerCount"
@@ -59,6 +60,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/styles/main.scss";
+
 .tickers {
   margin-top: 5rem;
   margin-bottom: 2rem;
