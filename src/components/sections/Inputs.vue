@@ -1,8 +1,6 @@
 <template>
+  <Title title="Inputs" />
   <section>
-    <div class="title">
-      <div class="img"></div>
-    </div>
     <div class="block">
       <h3>Radio inputs</h3>
       <div class="content">
@@ -28,13 +26,18 @@
       </div>
       <h3>Text inputs</h3>
       <div class="content">
-        <TextInput1 :placeholder="placeholder" v-model:TextInput1Value="TextInput1Value" />
+        <TextInput1
+          :placeholder="placeholder"
+          v-model:TextInput1Value="TextInput1Value"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import Title from "@/components/sections/Title";
+
 import RadioInputs1 from "@/components/inputs/radioInputs/RadioInputs1";
 import RadioInputs2 from "@/components/inputs/radioInputs/RadioInputs2";
 
@@ -45,6 +48,7 @@ import TextInput1 from "@/components/inputs/textInputs/TextInput1";
 
 export default {
   components: {
+    Title,
     RadioInputs1,
     RadioInputs2,
     CheckboxInputs1,
@@ -57,7 +61,7 @@ export default {
     rdioInput2Value: "",
     checkboxInputs1Value: [],
     checkboxInputs2Value: [],
-    TextInput1Value: ""
+    TextInput1Value: "",
   }),
 };
 </script>
