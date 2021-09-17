@@ -2,7 +2,7 @@
   <Title title="GSAP" />
   <section>
     <div class="block">
-      <h3>gsap animate</h3>
+      <h3>animate</h3>
       <div class="components">
         <GsapAnimate1 />
       </div>
