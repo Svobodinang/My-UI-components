@@ -1,8 +1,8 @@
 <template>
-  <Title title="GSAP" />
+  <Title title="Animate" />
   <section>
     <div class="block">
-      <h3>animate</h3>
+      <h3>gsap animate</h3>
       <div class="components">
         <GsapAnimate1 />
       </div>
