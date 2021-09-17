@@ -28,7 +28,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../styles/main.scss";
 
 $c-light: $c-light;
 $c-accent: $c-accent-one;

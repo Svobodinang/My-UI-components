@@ -37,7 +37,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../styles/main.scss";
 
 $color: $c-dark;
 $colorRound: $c-accent-two;

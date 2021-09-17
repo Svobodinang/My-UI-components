@@ -39,7 +39,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../styles/main.scss";
 
 $color: $c-dark;
 $colorArrow: $c-accent-two;

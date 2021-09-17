@@ -26,14 +26,14 @@
   <ButtonsSections />
   <InputsSections :fields="fields" :placeholder="placeholder" />
   <IconsSections />
-  <Logos />
+  <Animate />
 </template>
 
 <script>
 import ButtonsSections from "@/components/sections/Buttons";
 import InputsSections from "@/components/sections/Inputs";
 import IconsSections from "@/components/sections/Icons";
-import Logos from "@/components/sections/Logos";
+import Animate from "@/components/sections/Animate";
 
 export default {
   name: "App",
@@ -58,14 +58,12 @@ export default {
     ButtonsSections,
     InputsSections,
     IconsSections,
-    Logos,
+    Animate,
   },
 };
 </script>
 
 <style lang="scss">
-@import "./styles/main.scss";
-
 section {
   overflow: hidden;
 
@@ -103,8 +101,6 @@ section {
 </style>
 
 <style lang="scss" scoped>
-@import "./styles/main.scss";
-
 .main {
   width: 100%;
   height: 100vh;

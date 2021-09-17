@@ -24,7 +24,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../styles/main.scss";
 
 $colorLine: $c-accent-one;
 

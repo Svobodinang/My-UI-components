@@ -1,7 +1,8 @@
 <template>
-  <div class="block">
+  <div class="item">
     <div class="border">
       <svg
+        @click="animate"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -159,16 +160,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/styles/main.scss";
-
 .block {
   padding: 1rem;
-  width: 40%;
   .border {
     overflow: hidden;
     padding-top: 17px;
     svg {
       overflow: unset;
+      cursor: pointer;
     }
   }
 }

@@ -32,8 +32,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import "../../../styles/main.scss";
+<style lang="scss" scoped>;
 
 $bg-color: $c-light;
 $color: $c-dark;

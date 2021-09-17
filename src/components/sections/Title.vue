@@ -59,7 +59,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/styles/main.scss";
 
 .tickers {
   margin-top: 5rem;
