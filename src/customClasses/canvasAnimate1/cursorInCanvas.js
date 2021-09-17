@@ -4,13 +4,11 @@ export default class CursorInCanvas {
     this.x = 0
     this.y = 0
 
-    // Получаем координаты верхнего левого угла канваса
-    const rect = canvas.getBoundingClientRect();
     
     // При движении мышкой внутри канваса
     canvas.onmousemove = e => {
-      this.x = e.clientX - rect.left
-      this.y = e.clientY - rect.top
+      this.x = e.pageX - canvas.offsetLeft
+      this.y = e.pageY - canvas.offsetTop
     }
   }
 }

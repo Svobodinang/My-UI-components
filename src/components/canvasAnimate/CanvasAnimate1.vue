@@ -85,11 +85,13 @@ export default {
       window.requestAnimationFrame(this.render);
       // Очищаем канвас
       this.ctx.clearRect(0, 0, this.canvasWidth, this.canvasWidth);
+
       this.mouse.setPosition(
         this.cursorPosInCanvas.x,
         this.cursorPosInCanvas.y
       );
-      this.mouse.draw(this.ctx);
+      // this.mouse.draw(this.ctx);
+
       this.balls.forEach((ball) => {
         ball.think(this.cursorPosInCanvas, this.mouseRadius);
         // ball.draw(this.ctx);
