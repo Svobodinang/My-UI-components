@@ -1,5 +1,5 @@
 <template>
-  <Title title="Buttons" />
+  <!-- <Title title="Buttons" /> -->
   <section>
     <div class="block">
       <h3>Small action buttons</h3>

@@ -1,5 +1,5 @@
 <template>
-  <Title title="Icons" />
+  <!-- <Title title="Icons" /> -->
   <section>
     <div class="block">
       <h3>Menu icons</h3>

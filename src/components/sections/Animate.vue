@@ -1,5 +1,5 @@
 <template>
-  <Title title="Animate" />
+  <!-- <Title title="Animate" /> -->
   <section>
     <div class="block">
       <h3>Gsap animate</h3>

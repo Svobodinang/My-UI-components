@@ -23,10 +23,10 @@
       /></a>
     </div>
   </div>
+  <Animate />
   <ButtonsSections />
   <InputsSections :fields="fields" :placeholder="placeholder" />
   <IconsSections />
-  <Animate />
 </template>
 
 <script>

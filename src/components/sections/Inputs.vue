@@ -1,5 +1,5 @@
 <template>
-  <Title title="Inputs" />
+  <!-- <Title title="Inputs" /> -->
   <section>
     <div class="block">
       <h3>Radio inputs</h3>

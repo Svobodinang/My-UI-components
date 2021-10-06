@@ -13,13 +13,6 @@
       asperiores ea rerum, amet velit! Itaque molestiae repellat iure amet
       iusto.
     </p>
-
-    <p class="scroll-animate-1__text">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et inventore
-      ipsum placeat, delectus debitis quae voluptates deleniti odio fugiat
-      asperiores ea rerum, amet velit! Itaque molestiae repellat iure amet
-      iusto.
-    </p>
   </div>
 </template>
 

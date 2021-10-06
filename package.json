@@ -10,9 +10,12 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "gsap": "^3.7.1",
+    "three": "^0.133.1",
     "travis": "^0.1.1",
     "underscore": "^1.13.1",
-    "vue": "^3.0.0"
+    "vue": "^3.2.19",
+    "vue-gl": "^1.0.0",
+    "webgl-loader": "^0.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
