@@ -1,5 +1,6 @@
 <template>
   <div class="item">
+    click!
     <div class="border">
       <svg
         @click="animate"
