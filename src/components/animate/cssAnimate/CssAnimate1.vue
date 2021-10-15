@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper" :class="{ isCss }" @click="isCss = !isCss">
-    click!
+    <p class="acion-text">Нажми</p>
     <div class="canvas">
       <div :class="`p${c}`" v-for="c in pointCount" :key="c"></div>
     </div>
@@ -164,6 +164,9 @@ polygon(18.92% 30.79%, 25.76% 22.18%, 17.34% 29.54% );;
   @include render($css);
 }
 
+.wrapper {
+  cursor: pointer;
+}
 .canvas {
   position: relative;
   width: 600px;

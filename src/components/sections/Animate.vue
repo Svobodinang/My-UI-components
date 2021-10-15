@@ -17,7 +17,6 @@
       <h3>Canvas animate</h3>
       <div class="components">
         <CanvasAnimate1 />
-        <CanvasAnimate2 />
       </div>
     </div>
     <div class="block">
@@ -37,7 +36,6 @@
 
 <script>
 import CanvasAnimate1 from "@/components/animate/canvasAnimate/CanvasAnimate1";
-import CanvasAnimate2 from "@/components/animate/canvasAnimate/CanvasAnimate2";
 import GsapAnimate1 from "@/components/animate/gsapAnimate/GsapAnimate1";
 import CssAnimate1 from "@/components/animate/cssAnimate/CssAnimate1";
 import ScrollAnimate1 from "@/components/animate/scrollAnimate/ScrollAnimate1";
@@ -48,7 +46,6 @@ export default {
     CssAnimate1,
     GsapAnimate1,
     CanvasAnimate1,
-    CanvasAnimate2,
     ScrollAnimate1,
     WebGLAnimate1,
   },

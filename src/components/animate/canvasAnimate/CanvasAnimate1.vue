@@ -1,5 +1,6 @@
 <template>
   <div class="item">
+    <p class="acion-text">Наведи курсор на круг</p>
     <canvas ref="canvas" :width="canvasWidth" :height="canvasWidth"> </canvas>
   </div>
 </template>

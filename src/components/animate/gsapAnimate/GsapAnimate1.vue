@@ -1,6 +1,6 @@
 <template>
   <div class="item">
-    click!
+    <p class="acion-text">Нажми</p>
     <div class="border">
       <svg
         @click="animate"
@@ -133,13 +133,12 @@ gsap.registerPlugin(MotionPathPlugin);
 
 export default {
   mounted() {
-    this.animate();
+    this.tl = gsap.timeline();
   },
   methods: {
     animate() {
-      const tl = gsap.timeline();
       // U
-      tl.from(this.$refs.logoU, 1, { y: -30 })
+      this.tl.from(this.$refs.logoU, 0.5, { y: -30 })
         // R
         .from(
           this.$refs.logoR,
@@ -151,10 +150,14 @@ export default {
           },
           "-=1"
         )
-        .from(this.$refs.logoI, 2, { y: "110%" }, "-=1.5")
-        .from(this.$refs.logoTTop, 8, { x: "100%" }, "-=1.5")
-        .from(this.$refs.logoTBottom, 2, { y: "-100%" }, "-=7")
-        .from(this.$refs.logoY, 2, { y: "110%" }, "-=7");
+        // I
+        .from(this.$refs.logoI, 1, { y: "110%" }, "-=1")
+        // T TOP
+        .from(this.$refs.logoTTop, 4, { x: "100%" }, "-=1")
+        // T BOTTOM
+        .from(this.$refs.logoTBottom, 1, { y: "-100%" }, "-=4")
+        // Y
+        .from(this.$refs.logoY, 1, { y: "110%" }, "-=4");
     },
   },
 };

@@ -19,17 +19,17 @@ uniform float u_animation;
 
 void main() {
   // нормируем координаты мышки
-  float m = (u_mouse.x / u_resolution.x - 0.5) * 0.02;
+  float m = (u_mouse.x / u_resolution.x - 0.5) * 0.01;
 
   // чтобы исказить картинку, добавим координаты, так можнолинейно исказить
   // float distort = vUv.y*(0.1);
 
   // сделали как волны
-  float distort = sin(vUv.y * 150.0 + u_time) * 0.01 + m;
+  float distort = (sin(vUv.y * 150.0 + u_time) * 0.01 + m) * u_animation;
 
   // это чб картка, где черным выделена область, которая не должна двигаться
   // в чб все каналы имеют одинаковое значение
-  float myMap = texture2D(map_sample, vUv).r * u_animation;
+  float myMap = texture2D(map_sample, vUv).r;
 
   // умножаем искажение на маску, так каку нас то, что не должно шевелиться черное (значение 0)
   // то дисторд в этом месте будет 0 и не будет искажений
