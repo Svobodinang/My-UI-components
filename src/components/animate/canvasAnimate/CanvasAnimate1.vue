@@ -102,9 +102,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-canvas {
-  border: 1px solid $c-accent-two;
-}
-</style>

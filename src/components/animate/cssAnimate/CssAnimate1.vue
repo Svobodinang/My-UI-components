@@ -171,7 +171,7 @@ polygon(18.92% 30.79%, 25.76% 22.18%, 17.34% 29.54% );;
   position: relative;
   width: 600px;
   height: 400px;
-  border: 1px solid $c-accent-two;
+  // border: 1px solid $c-accent-two;
   & > * {
     position: absolute;
     width: 100%;
