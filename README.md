@@ -1,5 +1,7 @@
 # my-components
 
+test test test
+
 ## Project setup
 ```
 npm install
