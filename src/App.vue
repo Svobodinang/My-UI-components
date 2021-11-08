@@ -3,7 +3,6 @@
   <div class="main">
     <h1>UI components</h1>
     <p>by Hope Freedom</p>
-    <p>test test test</p>
     <div class="social">
       <a
         href="https://www.linkedin.com/in/%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0-5a39211ba/"
