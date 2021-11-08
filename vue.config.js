@@ -1,6 +1,5 @@
 module.exports = {
   css: {
-    test
     loaderOptions: {
       sass: {
         additionalData: `
